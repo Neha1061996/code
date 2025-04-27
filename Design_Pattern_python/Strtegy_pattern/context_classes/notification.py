@@ -10,6 +10,6 @@ class NotificationContext:
         self.notification_system = notification_strategy
 
     def notify(self, message):
-        self.notification_system.notify(
+        self.notification_system.send_notification(
             message
         )
